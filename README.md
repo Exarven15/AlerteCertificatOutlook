@@ -1,2 +1,2 @@
 # AlerteCertificatOutlook
-deux petit script afin d'avoir des alertes sur l'agenda Outlook
+Deux scripts afin d'avoir des alertes sur l'agenda Outlook pour un poste Windows.
