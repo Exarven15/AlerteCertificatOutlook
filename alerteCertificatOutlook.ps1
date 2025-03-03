@@ -1,16 +1,16 @@
 <#
 .SYNOPSIS
-    Copyright (c) 2024 RUELLET Mathieu
+    Copyright (c) 2024 Exarven
 
 .DESCRIPTION
-    Ce script est protégé par les lois sur le copyright et est la propriété de RUELLET Mathieu.
-    Toute utilisation non autorisée de ce script sans l'autorisation expresse de RUELLET Mathieu est interdite.
+    Ce script est protégé par les lois sur le copyright et est la propriété de Exarven.
+    Toute utilisation non autorisée de ce script sans l'autorisation expresse de Exarven est interdite.
     Ce script permet l'importation des clients radius vers un autre radius avec comme paramètre le nom du client, 
     l'adresse IP, le nom du vendeur et le mot de passe secret (Bien lire les commentaire pour comprendre ce qu'il faut changer).
 
 .NOTES
     Nom du fichier : alerteCertificatOutlook.ps1
-    Auteur        : RUELLET Mathieu
+    Auteur        : Exarven
     Version       : 1.0
     Date          : 29/01/2025
 
@@ -58,9 +58,9 @@ function Add-OutlookEvent {
 
 # Liste de certificats avec leurs dates d'expiration (à remplacer par les données réelles/nouvelles)
 $certificates = @{
-    "NPS-2" = Get-Date "2025-04-10"
-    "S-NPS1-P" = Get-Date "2025-09-16"
-    "S-NPS2-P" = Get-Date "2025-09-16"
+    "nom du serveur" = Get-Date "2025-04-10"
+    "nom du serveur" = Get-Date "2025-09-16"
+    "nom du serveur" = Get-Date "2025-09-16"
 }
 
 # Nombre de jours avant l'expiration pour planifier les alertes
